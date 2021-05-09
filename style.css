@@ -1,0 +1,114 @@
+body {
+  background-color: #F2F2F2;
+  color: #555555;
+  font-family:Roboto;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+    color: #2E8BA4;
+    font-family: MONOSPACE;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+ }
+
+a:hover {
+  color: yellow;
+}
+
+ h2,h3 {
+  color: #82BAC9;
+ }
+
+
+ #profile {
+  width: 300px;
+ }
+
+ #intro {
+  color: rgb(30,30,30);
+  font-family: serif;
+  font-size: 35px;
+  margin-top: 10px;
+ }
+
+.img-circle {
+  border-radius: 20%;
+}
+.shadowed {
+  box-shadow: 5px 5px 3px lightyellow;
+}
+
+.container {
+  width: 1300px;
+  margin: 40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+
+}
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+ .card-white {
+  background-color: white;
+  border-radius: 5px;
+  background: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+ }
+
+ .img-centered {
+  text-align: center;
+ }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline  li {
+  display: inline;
+  padding: 0px 20px;
+}
+.list-inline  a {
+  font-size: 40px;
+}
+
+
+.btn-blue {
+  background-color: orange;
+  color: white;
+  padding: 15px 20px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+#spacing p {
+  margin-bottom: 20px;
+}
